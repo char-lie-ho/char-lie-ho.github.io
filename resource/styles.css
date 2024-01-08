@@ -1,0 +1,105 @@
+*:not(#clickMe):not(#me) :not(#getToKnow) {
+    background-color: #E3DED2;
+}
+
+
+.typing-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    margin: 0;
+}
+
+
+
+/* typing cursor */
+#text1 {
+    font-family: 'Courier New', monospace;
+    font-size: 24px;
+    overflow: hidden;
+    padding-right: 10px;
+    animation: flash 700ms 9 alternate;
+}
+
+@keyframes flash {
+    from {
+        border-right: 2px solid black;
+    }
+
+    to {
+        border-right: 2px solid #E3DED2;
+    }
+}
+
+#clickMe {
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    display: inline-block;
+}
+
+#container {
+    position: relative;
+    width: 100vw;
+    height: 90vh;
+}
+
+
+#me {
+    height: 40px;
+    opacity: 0.8;
+}
+
+
+#charlie {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.fadeIn {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+nav {
+    z-index: 1;
+    font-family: 'Courier New', monospace;
+}
+
+
+button i {
+    height: 40px;
+    width: 40px;
+}
+
+#body {
+    font-family: 'Courier New', monospace;
+}
+
+
+.navbar-nav a:hover {
+    text-decoration: underline;
+
+}
+
+.navbar-nav a.active {
+    text-decoration: underline;
+    /* Add any other styles for the active link */
+}
+
+svg:hover path {
+    fill: #716F6A;
+}
+
+#getToKnow {
+    color: #E3DED2;
+    background-color: black;
+    font-size: 24px;
+}
+
+#getToKnow:hover {
+    color: black;
+    background-color: #E3DED2;
+}
