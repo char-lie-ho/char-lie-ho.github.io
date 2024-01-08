@@ -32,40 +32,41 @@
     <!-- body -->
 
     <div class="container-fluid" id="body">
+        
         <div class="row p-3">
+            <div class="col-sm-2"></div>
             <div class="col-sm-3" style=" display: flex; justify-content: center; align-items: center;">
                 <img src="resource/images/profileimage.png" alt="charlie" id="charlie">
             </div>
-            <div class="col-sm-9" id="boundary">
+            <div class="col-sm-5" id="boundary">
                 <div class="typing-container">
                     <p id="text1"></p>
                 </div>
             </div>
+            <div class="col-sm-2"></div>
         </div>
 
         <!-- Footer -->
-        <footer class="text-center">
+        <footer class="text-center" style="margin-top: 5vh;margin-bottom: 2vh;">
             <div class="container">
-                <section class="text-center mb-5">
-                    <a href="mailto:tho124@my.bcit.ca" type="button"><button class="text me-4 border-0">
-                            <i class="fa fa-envelope" style="font-size:36px; text-decoration:none"></i>
-                        </button></a>
-                    <a href="https://www.linkedin.com/in/charlie-ho-bc/" type="button"><button 
-                            class="text me-4 border-0">
-                            <i class="fa fa-linkedin" style="font-size:36px"></i>
-                        </button></a>
-                    <a href="https://github.com/char-lie-ho" type="button"><button class="text me-4 border-0">
-                            <i class="fa fa-github" style="font-size:36px"></i>
-                        </button></a>
+                <a href="mailto:tho124@my.bcit.ca" type="button"><button class="text me-4 border-0" id="footerLogo">
+                        <i class="fa fa-envelope" style="font-size:36px;opacity: 0.7;"></i>
+                    </button></a>
+                <a href="https://www.linkedin.com/in/charlie-ho-bc/" type="button"><button class="text me-4 border-0"
+                        id="footerLogo">
+                        <i class="fa fa-linkedin" style="font-size:36px;opacity: 0.7;"></i>
+                    </button></a>
+                <a href="https://github.com/char-lie-ho" type="button"><button class="text me-4 border-0"
+                        id="footerLogo">
+                        <i class="fa fa-github" style="font-size:36px;opacity: 0.7;"></i>
+                    </button></a>
 
-                    <a id="clickMe" onclick="sit()">
-                        <img src="resource/images/hi.svg" id="me">
-                    </a>
-                </section>
+                <a id="clickMe" onclick="sit()">
+                    <img src="resource/images/hi.svg" id="me">
+                </a>
+
             </div>
         </footer>
-
-
 
         <script src="resource/script.js"></script>
         <script src="resource/movePerson.js"></script>
