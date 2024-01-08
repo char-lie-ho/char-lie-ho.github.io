@@ -1,4 +1,4 @@
-*:not(#clickMe):not(#me) :not(#getToKnow) {
+*:not(#clickMe):not(#me):not(#getToKnow) {
     background-color: #E3DED2;
 }
 
