@@ -7,11 +7,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 80vh;
+    height: 70vh;
     margin: 0;
 }
-
-
 
 /* typing cursor */
 #text1 {
@@ -42,7 +40,7 @@
 #container {
     position: relative;
     width: 100vw;
-    height: 90vh;
+    height: 70vh;
 }
 
 
@@ -91,6 +89,13 @@ button i {
 
 svg:hover path {
     fill: #716F6A;
+}
+
+.icon-container {
+    display: inline-block;
+    /* align-items: center; */
+    padding: 10px;
+    margin-right: 5px;
 }
 
 #getToKnow {
