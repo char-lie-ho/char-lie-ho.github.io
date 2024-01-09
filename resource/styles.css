@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Roboto&display=swap');
+
 *:not(#clickMe):not(#me):not(#getToKnow) {
     background-color: #E3DED2;
 }
@@ -13,8 +16,8 @@
 
 /* typing cursor */
 #text1 {
-    font-family: 'Courier New', monospace;
-    font-size: 24px;
+    font-family: 'Abel';
+    font-size: 36px;
     overflow: hidden;
     padding-right: 10px;
     animation: flash 700ms 9 alternate;
@@ -63,7 +66,8 @@
 
 nav {
     z-index: 1;
-    font-family: 'Courier New', monospace;
+    font-family: 'Abel';
+    font-size: 22px;
 }
 
 
@@ -73,13 +77,14 @@ button i {
 }
 
 #body {
-    font-family: 'Courier New', monospace;
+    font-family: 'Abel';
+    font-size: 24px;
+    
 }
 
 
-.navbar-nav a:hover {
+#navbarNavDropdown a:hover {
     text-decoration: underline;
-
 }
 
 .navbar-nav a.active {
@@ -101,7 +106,7 @@ svg:hover path {
 #getToKnow {
     color: #E3DED2;
     background-color: black;
-    font-size: 24px;
+    font-size: 36px;
 }
 
 #getToKnow:hover {
