@@ -30,7 +30,7 @@ setTimeout(function () {
 }, 3500);
 
 setTimeout(function () {
-    textElement.innerHTML = `<a type="button" class="btn custom-button" id="getToKnow" href="experience.html">Get to know Charlie</a>`
+    textElement.innerHTML = `<a type="button" class="btn custom-button" id="getToKnow" href="projects.html">Get to know Charlie</a>`
 }, 7900);
 
 
