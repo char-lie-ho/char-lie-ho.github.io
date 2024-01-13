@@ -1,3 +1,4 @@
 window.onload = ()=>{
-    $('#navbarPlaceholder').load('nav.html')
+    $('#navbarPlaceholder').load('nav.html');
+    $('#footerPlaceholder').load('footer.html')
 }

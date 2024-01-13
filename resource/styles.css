@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Roboto&display=swap');
 
-*:not(#clickMe):not(#me):not(#getToKnow) {
+*:not(#clickMe):not(#me):not(#getToKnow):not(#project p) {
     background-color: #E3DED2;
 }
 
@@ -79,7 +79,7 @@ button i {
 #body {
     font-family: 'Abel';
     font-size: 24px;
-    
+
 }
 
 
@@ -112,4 +112,9 @@ svg:hover path {
 #getToKnow:hover {
     color: black;
     background-color: #E3DED2;
+}
+
+#project {
+    margin-left: 20px;
+    background-color: white;
 }
